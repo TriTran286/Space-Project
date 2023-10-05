@@ -487,6 +487,7 @@ body {
   padding: var(--underline-gap, 1rem) 0;
   border: 0;
   border-bottom: .2rem solid hsl( var(--clr-white) / 0 );
+  background: transparent;
 }
 
 .underline-indicators > * {
@@ -572,13 +573,6 @@ body {
   margin-top:2.5rem;
   align-items: center;
 }
-.destination{
-  background-repeat: no-repeat;
-  background: url(./assets/destination/background-destination-mobile.jpg);
-}
-
-
-
 @media (min-width:35em) {
   .numbered-title{
     justify-self:start;
@@ -588,11 +582,6 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
   }
-  .destination{
-    background-position: center center;
-    background: url(./assets/destination/background-destination-mobile.jpg);
-  }
-
 }
 
 @media (min-width:45rem) {
@@ -632,11 +621,24 @@ body {
     --gap: min(6vw, 6rem);
       justify-content: start;
   }
-  .destination{
-    background: url(./assets/destination/background-destination-mobile.jpg);
+}
+
+.destination {
+  background-image: url(./assets/destination/background-destination-mobile.jpg);
+}
+
+@media (min-width: 35rem) {
+  .destination {
+      background-position: center center;
+      background-image: url(./assets/destination/background-destination-tablet.jpg);
   }
 }
 
+@media (min-width: 45rem) {
+  .destination {
+      background-image: url(./assets/destination/background-destination-desktop.jpg);
+  }
+} 
 
 /* ******************** Crew Page ***************************************/
 .grid-container--crew{
