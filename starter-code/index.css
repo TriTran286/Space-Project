@@ -572,6 +572,10 @@ body {
   margin-top:2.5rem;
   align-items: center;
 }
+.destination{
+  background-repeat: no-repeat;
+  background: url(./assets/destination/background-destination-mobile.jpg);
+}
 
 
 
@@ -583,6 +587,10 @@ body {
   .destination-meta{
     flex-direction: row;
     justify-content: space-evenly;
+  }
+  .destination{
+    background-position: center center;
+    background: url(./assets/destination/background-destination-mobile.jpg);
   }
 
 }
@@ -623,6 +631,9 @@ body {
   .destination-meta {
     --gap: min(6vw, 6rem);
       justify-content: start;
+  }
+  .destination{
+    background: url(./assets/destination/background-destination-mobile.jpg);
   }
 }
 
