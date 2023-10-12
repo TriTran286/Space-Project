@@ -750,7 +750,7 @@ body {
   grid-area: content;
 }
  
-.grid-container--technology #vehicle-portrait{
+.grid-container--technology #portrait{
   display: none;
 }
 
@@ -793,7 +793,7 @@ body {
   .numbered-title{
     padding-left: 2.5rem;
   }
-  .grid-container--technology #vehicle-portrait{
+  .grid-container--technology #portrait{
     display: none;
   }
   .technology{
@@ -829,12 +829,12 @@ body {
     margin:0;
     padding-left: 0;
   }
-  .grid-container--technology #vehicle-portrait{
+  .grid-container--technology #portrait{
     max-width: 75%;
     display: block;
     grid-column: span 2;
   }
-  .grid-container--technology #vehicle-landscape{
+  .grid-container--technology #landscape{
     display: none;
   }
   .technology-info{
